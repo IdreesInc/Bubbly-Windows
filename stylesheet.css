@@ -1,5 +1,5 @@
 html {
-    background: rgb(172, 172, 172);
+    background: #090979;
 }
 
 .container {
@@ -14,16 +14,26 @@ html {
     width: 500px;
     overflow: hidden;
     margin: 10px;
-    background: blue;
+    background: white;
+    border-radius: 25px;
 }
 
 .bubble {
     position: absolute;
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    background-color: aqua;
     z-index: 2;
-    border-style: solid;
-    box-sizing: border-box;
+    border-radius: 100%;
+    background-color: rgb(35, 221, 144);
+    opacity: 0.5;
+}
+
+#signature {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+a, a:visited {
+    color: white;
 }
