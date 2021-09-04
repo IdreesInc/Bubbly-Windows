@@ -10,8 +10,18 @@ html {
 }
 
 .window {
+    position: relative;
     height: 200px;
     width: 500px;
+    overflow: hidden;
     margin: 10px;
     background: blue;
+}
+
+.bubble {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: aqua;
 }
