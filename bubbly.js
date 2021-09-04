@@ -55,6 +55,8 @@ function createBubble(diameter = 200) {
 }
 
 createBubble(MIN_SIZE + Math.random() * (MAX_SIZE - MIN_SIZE));
+setTimeout(() => createBubble(MIN_SIZE + Math.random() * (MAX_SIZE - MIN_SIZE)), 500);
+setTimeout(() => createBubble(MIN_SIZE + Math.random() * (MAX_SIZE - MIN_SIZE)), 1000);
 setInterval(() => {
     createBubble(MIN_SIZE + Math.random() * (MAX_SIZE - MIN_SIZE));
-}, 2000);
+}, 1500);
