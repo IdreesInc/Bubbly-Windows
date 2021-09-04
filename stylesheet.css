@@ -27,9 +27,10 @@ html {
 }
 
 #signature {
-    position: absolute;
-    bottom: 15px;
-    right: 25px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Courier New', Courier, monospace;
     color: white;
 }

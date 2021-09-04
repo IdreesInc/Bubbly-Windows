@@ -4,4 +4,6 @@ A webpage that has bubbles crossing through the background of different elements
 
 Uses [GSAP](https://greensock.com/gsap/) for the animations, but this can be removed by implementing this using CSS animations instead.
 
+Check it out on [CodePen](https://codepen.io/idreesinc/pen/ExXgvqg)
+
 Made with ❤ by [Idrees Hassan](https://idreesinc.com?utm_source=github&utm_medium=readme&utm_campaign=bubbly-windows)
